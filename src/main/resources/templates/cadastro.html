@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cadastro de Casas de Hogwarts</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" th:href="@{/css/style-casas.css}"/>
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+</head>
+<body>
+<div class="page-wrap">
+    <div class="container">
+        <h1 class="mt-5 title-animation">Cadastro de Casas de Hogwarts</h1>
+        <form class="mt-3">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Nome da casa">
+            </div>
+            <div class="form-group">
+                <label for="cor">Cor</label>
+                <input type="text" class="form-control" id="cor" placeholder="Cor da casa">
+            </div>
+            <div class="form-group">
+                <label for="fundador">Fundador</label>
+                <input type="text" class="form-control" id="fundador" placeholder="Nome do fundador">
+            </div>
+            <div class="form-group">
+                <label for="animal">Animal</label>
+                <input type="text" class="form-control" id="animal" placeholder="Animal símbolo da casa">
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
